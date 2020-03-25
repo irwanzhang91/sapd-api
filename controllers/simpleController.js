@@ -41,8 +41,7 @@ exports.join = (req, res) => {
     if(
         !req.body.nominal || req.body.nominal <= 0 ||
         !req.body.bank_id || req.body.bank_id <= 0 ||
-        !req.body.nama || req.body.nama.length <= 0 ||
-        !req.body.catatan || req.body.catatan.length <= 0
+        !req.body.nama || req.body.nama.length <= 0
     ){
         res.send({
             result: false,
@@ -54,7 +53,7 @@ exports.join = (req, res) => {
         nominal: req.body.nominal,
         bank_id: req.body.bank_id,
         nama: req.body.nama,
-        catatan: req.body.catatan,
+        catatan: req.body.catatan ? req.body.catatan : '',
         image_path: ''
       }
 

@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: false, limit: '2mb' }));
 
 app.use('/', routes);
 
-let route = 3008
+let route = 3001
 
 app.listen(route, () => {
     console.log(`Server Ready. Listening to ${route}...`);

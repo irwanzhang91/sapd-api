@@ -6,7 +6,7 @@ exports.getFilePrefixPath = () => {
 
 exports.getRootPath = () => {
   // return 'public/'
-  return '/var/www/sapd-api/public/'
+  return '/var/www/sapd/api/public/'
 }
 
 exports.base64toFile = (dataurl, filename) => {

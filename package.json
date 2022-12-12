@@ -18,7 +18,7 @@
   "homepage": "https://github.com/irwanzhang91/sapd-api#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mysql": "^2.17.1",
     "nodemailer": "^5.1.1",
     "randomstring": "^1.1.5"
